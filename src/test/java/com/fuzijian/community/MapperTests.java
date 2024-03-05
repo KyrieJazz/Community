@@ -42,7 +42,7 @@ public class MapperTests {
     @Test
     public void TestInsertUser(){
         User user = new User();
-        user.setUserName("测试");
+        user.setUsername("测试");
         user.setPassword("4444");
         user.setSalt("asd");
         user.setEmail("53535@qq.com");
